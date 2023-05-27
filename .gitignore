@@ -1,3 +1,10 @@
-
-brain_games/.DS_Store
+*.DS_Store
 *.pyc
+*.egg-info
+__pycache__
+dist/
+*.pyc
+.venv/
+.coverage
+coverage.xml
+.pytest_cache/
