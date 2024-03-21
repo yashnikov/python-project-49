@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "first hexlet project"
 authors = ["Vladimir Yashnikov <yashnikov@yashnikov.com>"]
 readme = "README.md"
+packages = [
+  { include = "brain_games" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.12"
