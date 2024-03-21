@@ -8,6 +8,9 @@ packages = [
   { include = "brain_games" },
 ]
 
+[tool.poetry.scripts]
+brain-games = "brain_games.scripts.brain_games:main"
+
 [tool.poetry.dependencies]
 python = "^3.12"
 
