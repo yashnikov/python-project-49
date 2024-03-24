@@ -2,8 +2,10 @@
 from brain_games.cli import welcome_user
 import random
 
+
 def is_even(number):
     return number % 2 == 0
+
 
 def play_even(name):
 
@@ -14,7 +16,7 @@ def play_even(name):
         random_integer = random.randint(1, 20)
         print('Answer "yes" if the number is even, otherwise answer "no".')
         print('Question:', random_integer)
-        
+
         # correct answer
         correct_answer = ''
         if is_even(random_integer):
@@ -28,7 +30,10 @@ def play_even(name):
             score += 1
             print('Correct!')
         else:
-            print(f"'{user_choice}' is wrong answer ;(. Correct answer was '{correct_answer}'")
+            print(
+                f"'{user_choice}' is wrong answer ;(. "
+                f"Correct answer was '{correct_answer}'"
+            )
             break
 
         if score == 3:
