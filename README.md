@@ -3,4 +3,4 @@
 
 
 ### Asciinema for Brain Even
-<script src="https://asciinema.org/a/ujUnhnJr0CC4Lob78Qdqy0cVX.js" id="asciicast-ujUnhnJr0CC4Lob78Qdqy0cVX" async></script>
+[![asciicast](https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3.svg)](https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3)
