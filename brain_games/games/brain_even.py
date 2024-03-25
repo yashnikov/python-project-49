@@ -43,7 +43,6 @@ def play_even():
 
 
 def main():
-    name = welcome_user()
     play_even()
 
 
