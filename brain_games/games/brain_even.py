@@ -35,6 +35,7 @@ def play_even():
                 f"'{user_choice}' is wrong answer ;(. "
                 f"Correct answer was '{correct_answer}'"
             )
+            print(f"'Let's try again, {name}!")
             break
 
         if score == 3:
