@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-from brain_games.cli import welcome_user
 from brain_games.engine import run_game
 import random
 
@@ -21,4 +20,4 @@ def run_even():
 
 
 if __name__ == '__main__':
-    main()
+    run_even()
