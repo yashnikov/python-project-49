@@ -8,3 +8,6 @@
 
 ### Asciinema for Brain Calc
 [![asciicast](https://asciinema.org/a/Hrgj6K5xMC3qOxae9cu05vbxU.svg)](https://asciinema.org/a/Hrgj6K5xMC3qOxae9cu05vbxU)
+
+### Asciinema for Brain GCD
+[![asciicast](https://asciinema.org/a/MbMrMFRVKs2U8iRCqaRJ57cXC.svg)](https://asciinema.org/a/MbMrMFRVKs2U8iRCqaRJ57cXC)
