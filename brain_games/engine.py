@@ -1,10 +1,10 @@
 import prompt
+from brain_games.constants import ROUNDS_NUMBER, SCORE_LIMIT
 
 
-def run_game(get_question_and_answer, description):
+def run_game(generate_round, description):
 
-    SCORE_LIMIT = 3
-    ROUNDS_NUMBER = 3
+
     score = 0
 
     print('Welcome to the Brain Games!')
@@ -13,7 +13,7 @@ def run_game(get_question_and_answer, description):
     print(description)
 
     for _ in range(ROUNDS_NUMBER):
-        question, correct_answer = get_question_and_answer()
+        question, correct_answer = generate_round()
         print('Question:', question)
         user_answer = prompt.string('Your answer: ')
         if user_answer == correct_answer:
