@@ -4,3 +4,7 @@
 
 ### Asciinema for Brain Even
 [![asciicast](https://asciinema.org/a/ujUnhnJr0CC4Lob78Qdqy0cVX.svg)](https://asciinema.org/a/ujUnhnJr0CC4Lob78Qdqy0cVX)
+
+
+### Asciinema for Brain Calc
+[![asciicast](https://asciinema.org/a/Hrgj6K5xMC3qOxae9cu05vbxU.svg)](https://asciinema.org/a/Hrgj6K5xMC3qOxae9cu05vbxU)
