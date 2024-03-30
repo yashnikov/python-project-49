@@ -19,10 +19,11 @@ def generate_round():
             correct_answer = num1 - num2
         case '*':
             correct_answer = num1 * num2
-    
+
     question = f'{num1} {math_operation} {num2}'
 
     return question, str(correct_answer)
+
 
 def run_calc():
     run_game(generate_round, CALC_DESCRIPTION)

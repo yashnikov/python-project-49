@@ -3,8 +3,6 @@ from brain_games.constants import ROUNDS_NUMBER, SCORE_LIMIT
 
 
 def run_game(generate_round, description):
-
-
     score = 0
 
     print('Welcome to the Brain Games!')
