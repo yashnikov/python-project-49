@@ -26,7 +26,7 @@ def generate_sequence():
 def generate_round():
 
     sequence = generate_sequence()
-    hidden_position = random.randint(0, AP_SEQUENCE_LENGTH)
+    hidden_position = random.randint(0, AP_SEQUENCE_LENGTH - 1)
     correct_answer = sequence[hidden_position]
     sequence[hidden_position] = '..'
     question = ''
