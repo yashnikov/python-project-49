@@ -14,3 +14,6 @@
 
 ### Asciinema for Brain Arithmetic Progression
 [![asciicast](https://asciinema.org/a/x6tvu2izSrETbEFA5KoCLm028.svg)](https://asciinema.org/a/x6tvu2izSrETbEFA5KoCLm028)
+
+### Asciinema for Brain Prime
+[![asciicast](https://asciinema.org/a/AILSuDK5drH2vxzbQUdfd7EOz.svg)](https://asciinema.org/a/AILSuDK5drH2vxzbQUdfd7EOz)
