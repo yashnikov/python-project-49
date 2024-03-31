@@ -11,3 +11,6 @@
 
 ### Asciinema for Brain GCD
 [![asciicast](https://asciinema.org/a/MbMrMFRVKs2U8iRCqaRJ57cXC.svg)](https://asciinema.org/a/MbMrMFRVKs2U8iRCqaRJ57cXC)
+
+### Asciinema for Brain Arithmetic Progression
+[![asciicast](https://asciinema.org/a/x6tvu2izSrETbEFA5KoCLm028.svg)](https://asciinema.org/a/x6tvu2izSrETbEFA5KoCLm028)
