@@ -7,7 +7,7 @@ import random
 def is_prime(number):
     if number == 1:
         return False
-    if number == 2 or number == 3:
+    if number in (2, 3):
         return True
 
     i = 2
