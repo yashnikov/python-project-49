@@ -4,13 +4,9 @@ from brain_games.constants import EVEN_DESCRIPTION
 import random
 
 
-def is_even(number):
-    return number % 2 == 0
-
-
 def generate_round():
     random_integer = random.randint(1, 40)
-    answer = 'yes' if is_even(random_integer) else 'no'
+    answer = 'yes' if random_integer % 2 == 0 else 'no'
     return random_integer, answer
 
 
