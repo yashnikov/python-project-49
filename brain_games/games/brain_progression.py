@@ -14,11 +14,10 @@ def generate_sequence():
     # arithmetic sequence
     ap_sequence = []
 
-    i = 0
-    while i < AP_SEQUENCE_LENGTH:
-        ap_sequence.append(first_term)
-        first_term += common_difference
-        i += 1
+    ap_sequence = [
+    first_term + common_difference * i for i in range(AP_SEQUENCE_LENGTH)
+]
+
 
     return ap_sequence
 
