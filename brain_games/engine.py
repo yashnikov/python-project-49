@@ -18,7 +18,7 @@ def run_game(generate_round, description):
             score += 1
             print('Correct!')
             if score == SCORE_LIMIT:
-                print('Congratulations,', name)
+                print(f"Congratulations, {name}!")
                 break
         else:
             print(
