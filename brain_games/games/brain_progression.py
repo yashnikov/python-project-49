@@ -15,9 +15,8 @@ def generate_sequence() -> list[int]:
     ap_sequence = []
 
     ap_sequence = [
-    first_term + common_difference * i for i in range(AP_SEQUENCE_LENGTH)
-]
-
+        first_term + common_difference * i for i in range(AP_SEQUENCE_LENGTH)
+    ]
 
     return ap_sequence
 
