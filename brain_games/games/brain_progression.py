@@ -28,10 +28,7 @@ def generate_round():
     hidden_position = random.randint(0, AP_SEQUENCE_LENGTH - 1)
     correct_answer = sequence[hidden_position]
     sequence[hidden_position] = '..'
-    question = ''
-
-    for element in sequence:
-        question += str(element) + ' '
+    question = ' '.join(map(str, sequence))
 
     return question, str(correct_answer)
 
