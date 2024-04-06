@@ -4,7 +4,7 @@ from brain_games.constants import CALC_DESCRIPTION
 import random
 
 
-def generate_round():
+def generate_round() -> tuple[str, str]:
     operators = ['+', '-', '*']
 
     num1 = random.randint(1, 10)
@@ -25,7 +25,7 @@ def generate_round():
     return question, str(correct_answer)
 
 
-def run_calc():
+def run_calc() -> None:
     run_game(generate_round, CALC_DESCRIPTION)
 
 

@@ -4,13 +4,13 @@ from brain_games.constants import EVEN_DESCRIPTION
 import random
 
 
-def generate_round():
+def generate_round() -> tuple[str, str]:
     random_integer = random.randint(1, 40)
     answer = 'yes' if random_integer % 2 == 0 else 'no'
     return random_integer, answer
 
 
-def run_even():
+def run_even() -> None:
     run_game(generate_round, EVEN_DESCRIPTION)
 
 

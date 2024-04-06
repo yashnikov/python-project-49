@@ -4,7 +4,7 @@ from brain_games.constants import GCD_DESCRIPTION
 import random
 
 
-def calculate_divisors(num):
+def calculate_divisors(num: int) -> list[int]:
     divisors = []
 
     i = 1
@@ -16,14 +16,14 @@ def calculate_divisors(num):
     return divisors
 
 
-def find_gcd(n, m):
+def find_gcd(n: int, m: int) -> int:
     n_divisors = calculate_divisors(n)
     m_divisors = calculate_divisors(m)
     gcd = max(set(n_divisors).intersection(m_divisors))
     return gcd
 
 
-def generate_round():
+def generate_round() -> tuple[str, str]:
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
 
@@ -33,7 +33,7 @@ def generate_round():
     return question, str(answer)
 
 
-def run_gcd():
+def run_gcd() -> None:
     run_game(generate_round, GCD_DESCRIPTION)
 
 

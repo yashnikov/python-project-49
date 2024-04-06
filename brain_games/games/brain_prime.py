@@ -4,7 +4,7 @@ from brain_games.constants import PRIME_DESC
 import random
 
 
-def is_prime(number):
+def is_prime(number: int) -> bool:
     if number == 1:
         return False
     if number in (2, 3):
@@ -19,7 +19,7 @@ def is_prime(number):
     return True
 
 
-def generate_round():
+def generate_round() -> tuple[str, str]:
     number = random.randint(1, 10)
     question = number
     answer = 'yes' if is_prime(number) else 'no'
@@ -27,7 +27,7 @@ def generate_round():
     return question, answer
 
 
-def run_prime():
+def run_prime() -> None:
     run_game(generate_round, PRIME_DESC)
 
 

@@ -1,8 +1,9 @@
+from typing import Callable
 import prompt
 from brain_games.constants import ROUNDS_NUMBER, SCORE_LIMIT
 
 
-def run_game(generate_round, description):
+def run_game(generate_round: Callable[[], tuple[str, str]], description: str) -> None:
     score = 0
 
     print('Welcome to the Brain Games!')

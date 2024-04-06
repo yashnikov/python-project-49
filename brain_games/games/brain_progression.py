@@ -4,7 +4,7 @@ from brain_games.constants import AP_DESCRIPTION, AP_SEQUENCE_LENGTH
 import random
 
 
-def generate_sequence():
+def generate_sequence() -> list[int]:
     # generate first term
     first_term = random.randint(1, 100)
 
@@ -22,7 +22,7 @@ def generate_sequence():
     return ap_sequence
 
 
-def generate_round():
+def generate_round() -> tuple[str, str]:
 
     sequence = generate_sequence()
     hidden_position = random.randint(0, AP_SEQUENCE_LENGTH - 1)
@@ -33,7 +33,7 @@ def generate_round():
     return question, str(correct_answer)
 
 
-def run_ap():
+def run_ap() -> None:
     run_game(generate_round, AP_DESCRIPTION)
 
 
