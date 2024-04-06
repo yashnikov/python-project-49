@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 from brain_games.engine import run_game
-from brain_games.constants import PRIME_DESCRIPTION
+from brain_games.constants import PRIME_DESC
 import random
 
-    
+
 def is_prime(number):
     if number == 1:
         return False
@@ -28,7 +28,7 @@ def generate_round():
 
 
 def run_prime():
-    run_game(generate_round, PRIME_DESCRIPTION)
+    run_game(generate_round, PRIME_DESC)
 
 
 if __name__ == '__main__':
