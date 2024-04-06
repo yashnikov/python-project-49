@@ -3,7 +3,7 @@ from brain_games.engine import run_game
 from brain_games.constants import PRIME_DESCRIPTION
 import random
 
-
+    
 def is_prime(number):
     if number == 1:
         return False
