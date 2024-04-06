@@ -3,8 +3,11 @@ import prompt
 from brain_games.constants import ROUNDS_NUMBER, SCORE_LIMIT
 
 
-def run_game(generate_round: Callable[[], tuple[str, str]], description: str) -> None:
-    score = 0
+def run_game(
+    generate_round: Callable[[], tuple[str, str]],
+    description: str
+) -> None:
+    score: int = 0
 
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name?')
