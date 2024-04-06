@@ -4,8 +4,12 @@ version = "0.1.0"
 description = "first hexlet project"
 authors = ["Vladimir Yashnikov <yashnikov@yashnikov.com>"]
 readme = "README.md"
+repository = "https://github.com/yashnikov/python-project-49"
 packages = [
   { include = "brain_games" },
+]
+classifiers = [
+    "Topic :: Software Development :: Games",
 ]
 
 [tool.poetry.scripts]
