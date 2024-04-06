@@ -7,8 +7,8 @@ import random
 def generate_round() -> tuple[str, str]:
     operators = ['+', '-', '*']
 
-    num1 = random.randint(1, 10)
-    num2 = random.randint(1, 10)
+    num1: int = random.randint(1, 10)
+    num2: int = random.randint(1, 10)
     math_operation = random.choice(operators)
     correct_answer = ''
 
